@@ -150,7 +150,8 @@ with open(outputfile,'w',encoding='utf-8') as text_file:
             wgs84lon=wgs84location[0]
             wgs84lat=wgs84location[1]
 
-            print(jname,'!',jtypecode,'!',jaddress,'!',wgs84lon,'!',wgs84lat,file=text_file)
+            print(jname,'!',jtypecode,'!',jaddress,'!',wgs84lon,'!',wgs84lat,file=text_file)   # ! to seperate text into column in excel
+            
 
 
 
